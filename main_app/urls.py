@@ -3,5 +3,6 @@ from . import views # Import views to connect routes to view functions
 
 urlpatterns = [
     path('', views.home, name='home'),
+    path('about/', views.about, name='about'), # You do, create an about page
 ]
 
